@@ -1,0 +1,75 @@
+.header{
+    padding: 20px 70px;
+}
+
+nav a {
+    color: #595e5f;
+}
+
+nav .menu-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 0px;
+}
+
+nav .menu-top .logo {
+    width: 200px;
+    height: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+nav .ingreso a{
+    padding: 10px;
+    background-color: #a7c1d9;
+    color: white;
+}
+/*
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+*/
+.menu-down {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.menu>li {
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+}
+
+.menu li a:hover {
+    border: 2px solid #203769;;
+    transition: all .3s;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    background-color: #f0f0f0;
+
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.carrito {
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+
+}
