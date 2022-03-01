@@ -1,0 +1,81 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home {
+    padding: 0px 70px;
+}
+.home .pastas, .home .postres{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .pastas article.titulo, .home .postres article.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 35px 0px;
+}
+
+.home .pastas article span, .home .postres article span{
+    height: 1px;
+    position: relative;
+    flex-grow: 1;
+    background-color: #a7c1d9;
+}
+
+.home .pastas article.titulo h3, .home .postres article.titulo h3{
+    color: #a7c1d9;
+    font-size: 17px;
+    letter-spacing: 4px;
+    border: 1px solid;
+    padding: 25px !important;
+}
+
+.home .pastas .contenido, .home .postres .contenido{
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+}
+.home .pastas .contenido .item, .home .postres .contenido .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home .pastas .contenido .item .imagen, .home .postres .contenido .item .imagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home .pastas .contenido .item .imagen img, .home .postres .contenido .item .imagen img{
+    padding: 10px;
+    width: 100%;
+}
+
+.home .pastas .contenido .descripcion, .home .postres .contenido .descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home .pastas .contenido .descripcion h3, .home .postres .contenido .descripcion h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #595e5f;
+}
+.home .pastas .contenido .descripcion p, .home .postres .contenido .descripcion p{
+    color: #595e5f;
+}
+
+.home .pastas .contenido .boton, .home .postres .contenido .boton{
+    border: 2px solid #203769;
+    border-radius: 15px;
+    
+}
+.home .pastas .contenido .boton h3, .home .postres .contenido .boton h3{
+    padding: 10px;
+    margin: 0;
+    color: #595e5f;
+}
