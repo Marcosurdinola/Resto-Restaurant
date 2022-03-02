@@ -2,7 +2,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .home {
-    padding: 0px 70px;
+    padding: 0px 70px 30px 70px;
+}
+.home .combos img{
+    width: 100%;
 }
 .home .pastas, .home .postres{
     display: flex;

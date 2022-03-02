@@ -1,62 +1,70 @@
 <!DOCTYPE html>
 <html>
 
-  <%- include('./partials/head') %>
+<%- include('./partials/head') %>
 
   <body>
 
     <%- include('./partials/header') %>
 
-    <main class="home">
-      <section class="pastas">
-        <article class="titulo">
-          <span></span>
-          <h3>PLATOS SUGERIDOS</h3>
-          <span></span>
-        </article>
+      <main class="home">
         
+        <div class="combos">
+          <img src="../images/Combos-1536x186.jpg" alt="">
+        </div>
 
-        <article class="contenido">
-          <div class="item">
-            <div class="imagen">
-              <img src="/images/PlatosDeComida/rbfusilli250.jpg" alt="">
-            </div>
-            <div class="descripcion">
-              <h3 class="titulo">Fusilli Integral con Fileto y Crema</h3>
-              <p class="precio">$500,00</p>
-            </div>
-            <div class="boton">
-              <h3>Agregar al carrito</h3>
-            </div>
-          </div>
-        </article>
-        
-      </section>
+        <section class="pastas">
+          <article class="titulo">
+            <span></span>
+            <h3>PLATOS SUGERIDOS</h3>
+            <span></span>
+          </article>
 
-      <section class="postres">
-        <article class="titulo">
-          <span></span>
-          <h3>POSTRES SUGERIDOS</h3>
-          <span></span>
-        </article>
-        
 
-        <article class="contenido">
-          <div class="item">
-            <div class="imagen">
-              <img src="/images/Postres/cheese-maracuya-540x540-1.jpg" alt="">
+          <article class="contenido">
+            <div class="item">
+              <div class="imagen">
+                <img src="/images/PlatosDeComida/rbfusilli250.jpg" alt="">
+              </div>
+              <div class="descripcion">
+                <h3 class="titulo">Fusilli Integral con Fileto y Crema</h3>
+                <p class="precio">$500,00</p>
+              </div>
+              <div class="boton">
+                <h3>Agregar al carrito</h3>
+              </div>
             </div>
-            <div class="descripcion">
-              <h3 class="titulo">Cheesecake de Maracuyá</h3>
-              <p class="precio">$500,00</p>
-            </div>
-            <div class="boton">
-              <h3>Agregar al carrito</h3>
-            </div>
-          </div>
-        </article>
+          </article>
 
-      </section>
-    </main>
+        </section>
+
+        <section class="postres">
+          <article class="titulo">
+            <span></span>
+            <h3>POSTRES SUGERIDOS</h3>
+            <span></span>
+          </article>
+
+
+          <article class="contenido">
+            <div class="item">
+              <div class="imagen">
+                <img src="/images/Postres/cheese-maracuya-540x540-1.jpg" alt="">
+              </div>
+              <div class="descripcion">
+                <h3 class="titulo">Cheesecake de Maracuyá</h3>
+                <p class="precio">$500,00</p>
+              </div>
+              <div class="boton">
+                <h3>Agregar al carrito</h3>
+              </div>
+            </div>
+          </article>
+
+        </section>
+      </main>
+      <%- include('./partials/footer') %>
+
   </body>
+
 </html>
