@@ -1,0 +1,63 @@
+.register{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+.register .contenido{
+    width: 50%;
+    background-image: url('../images/tickets_restaurant-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:-100px;
+    border-radius: 30px;
+}
+
+.register .contenido .ingresar{
+    padding: 100px 100px 100px 0;
+    border: 3px solid #352115;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.register .contenido .ingresar .bienvenido{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    padding: 20px 20px 20px 75px;
+}
+.register .contenido .ingresar .bienvenido h1{
+    width: 80%;
+    color: #352115;
+}
+.register .contenido .ingresar form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}
+.register .contenido .ingresar form .input-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 5px 0;
+    justify-content: center;
+
+}
+
+
+.register .contenido .ingresar form .input-contenedor input{
+    border: 3px solid #352115;
+    border-radius: 5px;
+    padding: 15px 5px;
+    width: 80%;
+    
+    
+}
+.register .contenido .ingresar form .input-contenedor input::placeholder{
+    color: black;
+    font-size: 16px;
+}

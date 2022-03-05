@@ -11,3 +11,10 @@ li{
 a{
     text-decoration: none;
 }
+
+body{
+    background-image: url('../images/depositphotos_52523455-stock-photo-white-wood-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
