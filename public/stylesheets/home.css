@@ -24,12 +24,12 @@ body {
     height: 1px;
     position: relative;
     flex-grow: 1;
-    background-color: #a7c1d9;
+    background-color: #352115;
 }
 
 .home .pastas article.titulo h3, .home .postres article.titulo h3{
-    color: #a7c1d9;
-    font-size: 17px;
+    color: #352115;
+    font-size: 20px;
     letter-spacing: 4px;
     border: 1px solid;
     padding: 25px !important;
@@ -54,6 +54,7 @@ body {
 .home .pastas .contenido .item .imagen img, .home .postres .contenido .item .imagen img{
     padding: 10px;
     width: 100%;
+    border-radius: 70%;
 }
 
 .home .pastas .contenido .descripcion, .home .postres .contenido .descripcion {

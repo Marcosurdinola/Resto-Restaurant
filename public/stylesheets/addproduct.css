@@ -12,10 +12,12 @@
 .addproducts .contenedoradd h1{
     padding-bottom: 15px;
 }
-.addproducts .contenedoradd form{
+.addproducts .contenedoradd .imgform{
     display: flex;
-    width: 50%;
-    justify-content: space-evenly;
+}
+.addproducts .contenedoradd .saveproduct{
+    display: flex;
+    justify-content: center;
 }
 .addproducts .contenedoradd .nameproduct, .priceproduct{
     display: flex;

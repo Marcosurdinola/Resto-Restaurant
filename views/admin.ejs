@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head') %>
-<body>
-    <%- include('./partials/header') %>
-    <main class="administracion">
-        <div class="tabla">
-            <div class="buttonadd">
-                <a href="/products/add" class="addproduct">
-                    Agregar Producto
-                </a>
-            </div>
-            <table>
-                <tr>
-                    <th>Imagen</th>
-                    <th>Nombre</th>
-                    <th>Precio</th>
-                </tr>
-            </table>
-        </div>
-    </main>
-</body>
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/header') %>
+            <main class="administracion">
+                <div class="container">
+                    <h1>Interfaz de Productos</h1>
+                    <div class="buttonadd">
+                        <a href="/products/add" class="addproduct">
+                            Agregar Producto
+                        </a>
+                    </div>
+                    <table class="tabla">
+                        <tr class="tittleadmin">
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>edit</th>
+                            <th>delete</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>Imagen</td>
+                                <td>Nombre</td>
+                                <td>Precio</td>
+                                <td>edit</td>
+                                <td>delete</td>
+                            </tr>
+                            <tr>
+                                <td>Imagen</td>
+                                <td>Nombre</td>
+                                <td>Precio</td>
+                                <td>edit</td>
+                                <td>delete</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </main>
+    </body>
+
 </html>

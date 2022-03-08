@@ -5,13 +5,34 @@
     padding: 14px 7px;
 }
 .administracion .addproduct{
-padding: 3px;
-background-color: aqua;
+    padding: 10px;
+    background-color: #352115;
+    color: white;
+}
+.administracion .container{
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+}
+.administracion .container h1{
+   text-align: center;
+   color: #352115;
 }
 .administracion .tabla {
     width: 100%;
-    background-color: gray;
+   /*  background-color: #814f2f; */
+    table-layout: fixed;
 }
-.administracion .tabla table{
-    width: 100%;
+.administracion .tabla .tittleadmin{
+    background-color: #352115;
+    color: white;
+    text-transform: uppercase;
+
+}
+.administracion .tabla tr{
+    border: 1px solid gray;
+}
+.administracion th, .tabla td{
+    padding: 8px;
+    text-align: center;
 }
