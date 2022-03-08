@@ -1,0 +1,24 @@
+.addproducts {
+    padding: 10px 70px;
+}
+
+.addproducts .contenedoradd {
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.addproducts .contenedoradd h1{
+    padding-bottom: 15px;
+}
+.addproducts .contenedoradd form{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.addproducts .contenedoradd .nameproduct, .priceproduct{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+}

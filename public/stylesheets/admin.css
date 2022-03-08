@@ -1,0 +1,17 @@
+.administracion {
+    padding: 10px 70px;
+}
+.administracion .buttonadd{
+    padding: 14px 7px;
+}
+.administracion .addproduct{
+padding: 3px;
+background-color: aqua;
+}
+.administracion .tabla {
+    width: 100%;
+    background-color: gray;
+}
+.administracion .tabla table{
+    width: 100%;
+}
