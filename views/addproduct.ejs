@@ -18,15 +18,23 @@
 
                             <div class="formproduct">
                                 <div class="nameproduct">
-                                    <label for="name">Nombre del producto</label>
+                                    <!-- <label for="name">Nombre del producto</label> -->
                                     <input type="text" class="" id="name" placeholder="Nombre del producto" name="name">
                                 </div>
 
                                 <div class="priceproduct">
-                                    <label for="price">Precio</label>
+                                    <!-- <label for="price">Precio</label> -->
                                     <input type="number" class="" id="price" name="price" placeholder="Precio">
                                 </div>
-
+                                <div class="categoryproduct">
+                                    <select class="form-select" id="category" name="category">
+                                        <option value="" selected hidden>Selecciona la categoría</option>
+                                        <% categories.forEach(category => { %>
+                                            <option value="<%= category.id %>" <%= locals.old && old.category.id === category.id  ? 'selected' : null%> ><%= category.name %></option>
+                                            <% }) %>  
+                                    </select>
+                                    <span id="categoryError" class="text-danger small ms-2"><%= locals.errors && errors.category ? errors.category.msg : null%> </span>
+                                </div>
                             </div>
                         </div>
 

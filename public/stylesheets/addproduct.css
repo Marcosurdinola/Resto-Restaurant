@@ -3,23 +3,41 @@
 }
 
 .addproducts .contenedoradd {
-    background-color: gray;
+    
     padding: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 425px;
+    margin: auto;
 }
 .addproducts .contenedoradd h1{
     padding-bottom: 15px;
+    color: #352115;
 }
 .addproducts .contenedoradd .imgform{
     display: flex;
 }
+.addproducts .contenedoradd .imgform .imageproduct{
+    border: 2px solid #352115;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+.addproducts .contenedoradd .imgform .formproduct{
+    margin: auto;
+}
 .addproducts .contenedoradd .saveproduct{
     display: flex;
     justify-content: center;
+    padding-top: 7px;
 }
-.addproducts .contenedoradd .nameproduct, .priceproduct{
+.addproducts .contenedoradd .saveproduct button{
+    padding: 10px;
+    background-color: #352115;
+    color: white;
+}
+.addproducts .contenedoradd .nameproduct, .priceproduct, .categoryproduct{
     display: flex;
     flex-direction: column;
     padding: 7px;

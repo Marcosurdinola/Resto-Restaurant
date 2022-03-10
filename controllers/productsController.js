@@ -1,5 +1,17 @@
+
+const db = require('../database/models');
+const { Op } = require('sequelize');
+
 module.exports = {
     add: (req, res) => {
-        return res.render('addproduct')
-    }
+
+        db.Category.findAll()
+            .then(categories => {
+                return res.render('addproduct', {
+                    categories,
+                    title: "Agregar producto"
+                })
+            })
+            .catch(error => console.log(error))
+    },
 }
