@@ -54,7 +54,8 @@ nav .ingreso a{
 
 .menu li a:hover {
     transition: all 200ms;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    color: #352115;
 }
 
 .submenu {

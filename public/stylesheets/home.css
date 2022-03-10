@@ -44,6 +44,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 35px;
+}
+.home .pastas .contenido .item:hover, .home .postres .contenido .item:hover{
+    box-shadow: 0 10px 40px rgba(55, 33, 21, 1);
+    transition: all 200ms;
+    transform: scale(1.1);
 }
 .home .pastas .contenido .item .imagen, .home .postres .contenido .item .imagen{
     width: 100%;
@@ -61,6 +67,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .home .pastas .contenido .descripcion h3, .home .postres .contenido .descripcion h3{
@@ -74,12 +81,23 @@ body {
 }
 
 .home .pastas .contenido .boton, .home .postres .contenido .boton{
-    border: 2px solid #203769;
-    border-radius: 15px;
+    width: 140px;
+    height: 45px;
+    display: flex;
+    margin: 5px 0;
     
 }
-.home .pastas .contenido .boton h3, .home .postres .contenido .boton h3{
+.home .pastas .contenido .boton button, .home .postres .contenido .boton button{
     padding: 10px;
     margin: 0;
-    color: #595e5f;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #352115;
+    border-radius: 10px;
+
+}
+.home .pastas .contenido .boton button:hover, .home .postres .contenido .boton button:hover{
+    cursor: pointer;
+    background-color: #352115;
+    color: aliceblue;
 }

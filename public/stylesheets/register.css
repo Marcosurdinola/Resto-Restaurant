@@ -10,7 +10,7 @@
     background-image: url('../images/tickets_restaurant-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:-100px;
+    background-position:-155px;
     border-radius: 30px;
 }
 
@@ -36,13 +36,14 @@
 .register .contenido .ingresar form{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     padding: 20px;
+    justify-content: center;
 }
 .register .contenido .ingresar form .input-contenedor{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
     padding: 5px 0;
     justify-content: center;
 
@@ -60,4 +61,24 @@
 .register .contenido .ingresar form .input-contenedor input::placeholder{
     color: black;
     font-size: 16px;
+}
+
+.register .contenido .ingresar form div.btn-crear{
+    width: 100px;
+    height: 40px;
+    display: flex;
+}
+
+.register .contenido .ingresar form div.btn-crear button{
+    width: 100%;
+    height: 100%;
+    border: 3px solid #352115;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.register .contenido .ingresar form div.btn-crear button:hover{
+    cursor: pointer;
+    background-color: #352115;
+    color: aliceblue;
 }
