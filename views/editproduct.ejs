@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/header') %>
+
+            <main class="addproducts">
+
+                <div class="contenedoradd">
+                    <h1>Editar Producto</h1>
+                    <form action="">
+                        <div class="imgform">
+                            <div class="imageproduct">
+                                <input hidden class="" type="file" id="image" name="image">
+                                <label for="image" class="">Subir imagen</label>
+                            </div>
+
+                            <div class="formproduct">
+                                <div class="nameproduct">
+                                    <!-- <label for="name">Nombre del producto</label> -->
+                                    <input type="text" class="" id="name" placeholder="Nombre del producto" name="name">
+                                </div>
+
+                                <div class="priceproduct">
+                                    <!-- <label for="price">Precio</label> -->
+                                    <input type="number" class="" id="price" name="price" placeholder="Precio">
+                                </div>
+                                <div class="categoryproduct">
+                                    <select class="form-select" id="category" name="category">
+                                        <option value="" selected hidden>Selecciona la categoría</option>
+                                        
+                                    </select>
+                                    <span id="categoryError" class="text-danger small ms-2"><%= locals.errors && errors.category ? errors.category.msg : null%> </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="saveproduct">
+                            <button type="submit" class="">Guardar</button>
+                        </div>
+
+                    </form>
+                </div>
+            </main>
+    </body>
+
+</html>

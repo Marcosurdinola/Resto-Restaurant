@@ -14,4 +14,7 @@ module.exports = {
             })
             .catch(error => console.log(error))
     },
+    edit: (req, res) => {
+        return res.render('editproduct')
+    },
 }
